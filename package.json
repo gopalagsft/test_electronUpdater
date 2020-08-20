@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gopalagsft/TestElectronUpdater.git"
+    "url": "https://github.com/gopalagsft/test_electronUpdater.git"
   },
   "build": "electron-builder build --mac --win --publish never",
   "deploy": "electron-builder build --mac --win --publish always"
