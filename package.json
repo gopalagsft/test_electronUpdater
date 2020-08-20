@@ -4,7 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +20,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gopalagsft/test_electronUpdater.git"
-  },
-  "build": "electron-builder build --mac --win --publish never",
-  "deploy": "electron-builder build --mac --win --publish always"
+  }
 }
